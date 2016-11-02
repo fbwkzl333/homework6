@@ -15,27 +15,27 @@ public class AptPersonCount {
 		Scanner input = new Scanner(System.in);
 		System.out.println("==========================================");
 			for(int i=0; i<F1.length; i++){
-				System.out.print("101호에 살고 있는 사람의 숫자 : ");
+				System.out.print("10"+(i+1)+"호에 살고 있는 사람의 숫자 : ");
 				F1[i] = input.nextInt();
 				sum1 += F1[i];
 			}
 			for(int i=0; i<F2.length; i++){
-				System.out.print("102호에 살고 있는 사람의 숫자 : ");
+				System.out.print("20"+(i+1)+"호에 살고 있는 사람의 숫자 : ");
 				F2[i] = input.nextInt();
 				sum2 += F2[i];
 			}
 			for(int i=0; i<F3.length; i++){
-				System.out.print("103호에 살고 있는 사람의 숫자 : ");
+				System.out.print("30"+(i+1)+"호에 살고 있는 사람의 숫자 : ");
 				F3[i] = input.nextInt();
 				sum3 += F3[i];
 			}
 			for(int i=0; i<F4.length; i++){
-				System.out.print("104호에 살고 있는 사람의 숫자 : ");
+				System.out.print("40"+(i+1)+"호에 살고 있는 사람의 숫자 : ");
 				F4[i] = input.nextInt();
 				sum4 += F4[i];
 			}
 			for(int i=0; i<F5.length; i++){
-				System.out.print("105호에 살고 있는 사람의 숫자 : ");
+				System.out.print("50"+(i+1)+"호에 살고 있는 사람의 숫자 : ");
 				F5[i] = input.nextInt();
 				sum5 += F5[i];
 			}
