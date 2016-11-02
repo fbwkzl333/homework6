@@ -41,7 +41,7 @@ public class ExamVariousArray {
 			AptPersonCount num4 = new AptPersonCount();
 			num4.Apt();
 			break;
-		case 5:		// 5번 1~100사의 숫자 입력 후, 역순으로 출력 
+		case 5:		// 5번 겹치지 않게 숫자 입력받기, 배열 거꾸로 출력 
 			OnlyNumber num5 = new OnlyNumber();
 			num5.Onl();
 			break;
