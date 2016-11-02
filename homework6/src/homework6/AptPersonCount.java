@@ -4,7 +4,6 @@ package homework6;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
 public class AptPersonCount {
 	public void Apt(){
 		int F1[] = new int[3]; // 1층의 101~103호
