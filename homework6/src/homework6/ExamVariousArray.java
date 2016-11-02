@@ -1,4 +1,4 @@
-// 1. Main함수포함 클래스 : ExamVariousArray
+// Main함수포함 클래스 : ExamVariousArray
 
 package homework6;
 
@@ -28,6 +28,10 @@ public class ExamVariousArray {
 		case 1:  //num = 1( 두번째로 큰 수 구하기 )
 			SecondMax num1 = new SecondMax();  // 1번 클래스 인스턴스 생성
 			num1.Sec();  // 1번 클래스 호출, 반환
+			break;
+		case 2:	// 2번 심사 점수 계산 을 선택시
+			AvgScore num2 = new AvgScore();	// 2번 클래스의 인스턴스 생성
+			num2.Avg();  // 2번 클래스 내용 부름
 			break;
 		case 6:		// 입력된게 6이면 종료
 			System.out.println("Goodbye Thank you !");
