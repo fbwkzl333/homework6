@@ -48,6 +48,10 @@ public class ExamVariousArray {
 		case 6:		// 입력된게 6이면 종료
 			System.out.println("Goodbye Thank you !");
 			break;
+		default:	// 메뉴 잘못 입력시 메뉴 리턴
+			System.out.println("없는 메뉴입니다! 다시 입력하여주십시오.\n");
+			ReportClass();
+			break;
 		}
 		
 	}
